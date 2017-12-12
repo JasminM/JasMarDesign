@@ -1,0 +1,165 @@
+/*!
+ * Start Bootstrap - Stylish Portfolio (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+/* Global Styles */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;    
+    background: url("../img/nonabasbg.jpg");
+    overflow-x: hidden; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+}
+.content {
+    margin: auto;
+    max-width: 1200px;
+    width: auto;
+    margin-top: 20px
+}
+header {
+    /*background: #1bbaa5;*/
+    background-color: #2a3539;
+    color: #fff;
+    text-align: center;
+
+}
+
+header h3 {
+    margin-top: 0;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+@media (max-width: 740px){
+    header {
+        background-size: auto 50px;
+        background-position: center bottom;
+    }
+}
+
+.goToPortal {
+    background: rgba(255, 255, 255, 0.3) none repeat scroll 0 0;
+    font-size: 20px;
+    font-weight: bold;
+    height: 120px;
+    margin: 5%;
+    padding-top: 30px;
+    text-align: center;
+    width: 90%;
+    color: #2a3539;
+    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+    border-style: groove;
+    border-width: 5px;
+    border-color: #2a3539 ;
+    border-radius: 20px;
+}
+a ,a:hover,a:active{
+    text-transform: none;
+    text-decoration: none;
+}
+.goToPortal:hover {
+    transition: all 0.5s;
+    background: #1bbaa5;
+    color: #fff;
+    cursor: pointer;
+    text-shadow: -1px 0 transparent, 0 1px transparent, 1px 0 transparent, 0 -1px transparent;
+}
+.goToPortal:hover .glyphicon{
+    text-shadow: -1px 0 transparent, 0 1px transparent, 1px 0 transparent, 0 -1px transparent;
+}
+
+.goToPortal .glyphicon {
+    display: block;
+    font-size: 25px;
+    color: #fff;
+    text-shadow: -1px 0 #2a3539, 0 1px #2a3539, 1px 0 #2a3539, 0 -1px #2a3539;
+}
+
+.goToPortalOld {
+   background: #2a3539 none repeat scroll 0 0;
+    font-size: 20px;
+    font-weight: bold;
+    height: 120px;
+    margin: 5%;
+    padding-top: 30px;
+    text-align: center;
+    width: 90%;
+    color: #2a3539;
+    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+    border-style: groove;
+    border-width: 5px;
+    border-color: #2a3539 ;
+    border-radius: 20px;
+    -webkit-box-shadow: 
+    0px 0px 1px 0px rgba(255,255,255,.7),
+    0px 0px 2px 2px rgba(255,255,255,.8);
+}
+a ,a:hover,a:active{
+    text-transform: none;
+    text-decoration: none;
+}
+.goToPortalOld:hover {
+    transition: all 0.5s;
+    background: #1bbaa5;
+    color: #fff;
+    cursor: pointer;
+    text-shadow: -1px 0 transparent, 0 1px transparent, 1px 0 transparent, 0 -1px transparent;
+}
+.goToPortalOld:hover .glyphicon{
+    text-shadow: -1px 0 transparent, 0 1px transparent, 1px 0 transparent, 0 -1px transparent;
+}
+
+.goToPortalOld .glyphicon {
+    display: block;
+    font-size: 25px;
+    color: #fff;
+    text-shadow: -1px 0 #2a3539, 0 1px #2a3539, 1px 0 #2a3539, 0 -1px #2a3539;
+}
+/*
+.row.header2{
+    background-size: auto 100px;
+            background: url("../img/nonabasbg.png");
+    background-size: cover;
+}*/
+.dynamicBox {
+    font-size: 20px;
+    font-weight: bold;
+    height: 100px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: center;
+    padding-top: 5px;
+    text-align: center;
+    width: 90%;
+    color: #2a3539;
+    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+    border: 5px;
+    border-style: groove;
+    border-color: #2a3539;
+    border-radius: 20px;/*
+    -webkit-box-shadow: 
+    0px 0px 1px 0px rgba(255,255,255,.7),
+    0px 0px 2px 2px rgba(255,255,255,.8);
+*/
+}
+
+.line {
+    border-radius: 50%;
+    background-color: #2a3539;
+    border-left: 70px solid #272b30;
+    border-right: 50px solid #272b30;    
+    text-align: center;
+    color: #FFFFFF;
+}
